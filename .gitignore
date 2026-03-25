@@ -1,0 +1,45 @@
+# Common IDE and System Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build and Dependency Directories
+node_modules/
+dist/
+build/
+bin/
+obj/
+out/
+
+# Python environment/cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+.pytest_cache/
+
+# User-specific configuration
+*.local
+.env
+.env.local
+
+# Temporary files
+temp/
+tmp/
+*.log
+*.tmp
+*.bak
+
+# AI/Model related (large files should be ignored or managed by LFS)
+*.pt
+*.pth
+*.bin
+*.model
+*.onnx
+*.safetensors
