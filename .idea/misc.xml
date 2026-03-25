@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="Black">
+<<<<<<< HEAD
+    <option name="sdkName" value="E:\miniconda3\envs\ai_env" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="E:\miniconda3\envs\ai_env" project-jdk-type="Python SDK" />
+=======
+    <option name="sdkName" value="0114ai-course" />
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="0114ai-course" project-jdk-type="Python SDK" />
+>>>>>>> 956848e7762e5e3c83048a94ee4a4bbf1004e758
 </project>
