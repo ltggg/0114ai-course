@@ -1,0 +1,22 @@
+神经网络的的组成：输入层，隐藏层，输出层
+    其中一层隐藏层包含输入层加激活函数
+    如果没有激活函数，隐藏层等于无效
+激活函数可以将线性预测转换为非线性预测，最常用的是ReLU，虽然他是简单的非线性的分段函数，但是她可以应用多层，叠加多层ReLU能你和任意复杂函数。还有其他激活函数，Sigmoid，Tanh，Leaky ReLU。
+
+损失函数
+MSE：遇到预测的数字类型的优先用MSE
+交叉熵：遇到分类任务、图像识别的优先用交叉熵
+BCE（二元交叉熵）：用于是否判断、二分类任务
+
+优化器：
+SGD
+Momentum
+Adam（常用）
+AdamW
+
+常用五步
+optimizer.zero_grad()----清空上一步梯度
+outputs=model(inputs)----前向传播
+loss=criterion(outpots,label)----计算损失
+loss.backward()----反向传播
+optimizer.step()----优化器更新参数
