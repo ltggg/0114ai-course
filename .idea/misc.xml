@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
   <component name="Black">
@@ -7,4 +8,10 @@
   </component>
 >>>>>>> Stashed changes
   <component name="ProjectRootManager" version="2" project-jdk-name="G:\miniconda3\envs\ai_env" project-jdk-type="Python SDK" />
+=======
+  <component name="Black">
+    <option name="sdkName" value="0114ai-course" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="0114ai-course" project-jdk-type="Python SDK" />
+>>>>>>> 9e9925bddb0e08576fee4c8cf31e1a00bf38b92b
 </project>
